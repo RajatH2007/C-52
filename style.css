@@ -1,0 +1,98 @@
+h1{
+    color : red
+}
+
+/* *{
+    border: solid;
+    border-color: purple;
+}*/
+.header *{
+    border: solid;
+    border-color: brown;
+    margin-left: 30px;
+    padding-left:30px;
+    padding-right: 30px;
+}
+.header {
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    background-color: palegoldenrod;
+    display : flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: peachpuff;
+    display : flex;
+    justify-content : flex-end;
+}
+
+.fu{
+    border: solid;
+    border-radius: 100px;
+    border-color: rgb(252, 158, 124);
+    justify-content : center;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding:10px
+}
+
+.item{
+    background-color:rgb(233, 200, 177);
+    display : flex;
+    position: relative;
+}
+
+.item p{
+    font-weight: bolder;
+    font-style: bold;
+    font-size: 35px;
+    
+    color:rgba(0, 0, 0, 0.459);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+body{
+    background-color: rgb(184, 158, 212);
+}
+
+a:link{
+color: green
+}
+
+a:visited{
+    color: rgb(241, 85, 28)
+}
+
+.menu{
+    margin-right: 30px;
+    
+}
+
+.menu a{
+    margin-left: 20px;
+}
